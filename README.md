@@ -61,9 +61,9 @@ Binaries werden **nicht** eingecheckt (siehe `.gitignore`).
 
 ## Roadmap
 
-- [ ] Lab-Setup dokumentieren (DC + Client + Kali/Angreifer)
+- [x] Lab-Setup dokumentieren (DC1 + PC1 + VM1/Kali auf Proxmox)
 - [ ] Kerberos-Grundlagen ausformulieren
-- [ ] Golden-Ticket-PoC + Nachweis
-- [ ] Silver-Ticket-PoC + Nachweis
+- [x] Golden-Ticket-PoC + Nachweis
+- [x] Silver-Ticket-PoC + Nachweis
 - [ ] Detection-Queries (Event-IDs 4768/4769/4624, SIEM-Regeln)
 - [ ] Härtungs-Checkliste (krbtgt-Rotation, AES, PAC-Validierung, Tiering)
