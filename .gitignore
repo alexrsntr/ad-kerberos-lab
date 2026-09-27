@@ -1,0 +1,44 @@
+# === Kerberos / Credential-Artefakte (NIEMALS committen) ===
+*.kirbi
+*.ccache
+*.tkt
+*.keytab
+
+# NTDS / Hashes / Secrets
+ntds.dit
+*.ntds
+*.hashes
+hashes*.txt
+*.secrets
+secrets*.txt
+*.dmp
+lsass*
+
+# Loot / Dumps
+loot/
+dumps/
+output/
+
+# === Sensible Lab-Konfiguration (echte IPs / Hostnamen / Passwörter) ===
+.env
+*.env
+lab/*.local*
+lab/inventory*
+!lab/.gitkeep
+
+# Private Arbeitsnotizen (optional aus Veröffentlichung ausschließen)
+# notes/
+
+# === Tool-Binaries nicht einchecken ===
+*.exe
+*.dll
+mimikatz*
+Rubeus*
+
+# === OS / Editor ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
